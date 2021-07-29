@@ -54,13 +54,13 @@ body {
 #time {
     position: absolute;
     top: 20%;
-    left: 53%;
+    left: 48%;
 }
 
 .score-pos {
     position: absolute;
     top: 20%;
-    left: 63%;
+    left: 58%;
 }
 
 .start-game {
@@ -69,15 +69,25 @@ body {
     left: 50%;
 }
 
-#dif1, #dif2, #dif3 {
-    margin-left: 30px;
+#dif1 {
+    margin-left: 80px;
+    margin-top: 160px;
     font-size: 30px;
     background-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
     border: 2px solid rgba(60, 93, 193, 1);
 }
+#dif2 {
+    margin-left: 30px;
+    margin-top: 160px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    border: 2px solid rgba(60, 93, 193, 1);
+    z-index: 103;
+}
 
-#dif1:hover, #dif2:hover, #dif3:hover {
+#dif1:hover, #dif2:hover {
     background-color: rgba(60, 93, 193, 0.8);
     color: white;
 }
@@ -182,12 +192,21 @@ h3 {
 .crosses {
     position: absolute;
     top: 18%;
-    left: 73%;
+    left: 76%;
+    font-size: 30px;
+}
+.checks{
+    position: absolute;
+    top: 18%;
+    left: 70%;
     font-size: 30px;
 }
 
 .red {
     color: red;
+}
+.green {
+    color: green;
 }
 
 .head {
@@ -196,4 +215,27 @@ h3 {
     font-size: 50px;
     color: rgba(0, 0, 0, 0.8);
     transform: rotate(-25deg);
+}
+
+#first-demo, #second-demo {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    width: 500px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#third-demo, #forth-demo {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    width: 500px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.square {
+    position: absolute;
+    text-align: center;
+    color: white;
 }

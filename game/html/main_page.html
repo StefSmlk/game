@@ -8,11 +8,17 @@
     <title>Game</title>
 </head>
 <body>
+
+    <div class="intro">
+        <p class="hide" id="first-demo"><span class="square">при нажатии кнопки "запомнил" один из предметов выше пропадет</span></p>
+        <p class="hide" id="second-demo"><span class="square">теперь выберите из этих предметов тот, что пропал</span></p>
+        <p class="hide" id="third-demo"><span class="square">у Вас есть возможность два раза ошибиться, после третьей ошибки игра будет закончена</span></p>
+        <p class="hide" id="forth-demo"><span class="square">после трех подряд правильных ответа сложность игры увеличивается</span></p>
+    </div>
+
     <div class="start-game">
-        <h3>Выберите сложность игры:</h3>
-        <button id="dif1">просто</button>
-        <button id="dif2">средне</button>
-        <button id="dif3">сложно</button>
+        <button id="dif2">Обучение</button>
+        <button id="dif1">Начать игру</button>
     </div>
 
     <div id="time">время: </div>
@@ -64,6 +70,7 @@
     </div>
 
     <div class="crosses"><span class="mistake">x</span>&nbsp;<span class="mistake">x</span>&nbsp;<span class="mistake">x</span></div>
+    <div class="checks"><span class="correct">o</span>&nbsp;<span class="correct">o</span>&nbsp;<span class="correct">o</span></div>
 
     <div id ="three" class="hide"><div class="th">3</div></div>
     <div id ="two" class="hide"><div class="tw">2</div></div>
