@@ -230,6 +230,7 @@ function game() {
                             document.getElementsByClassName("correct")[i].classList.add('green');
                         }
                         score.innerHTML = (Number(score.innerHTML) + 60 - Math.floor((new Date().getTime() - startTime) / 1000)).toString();
+                        start = start + 3
                         if (cor === 3){
                             level++;
                             eraseChecks();
