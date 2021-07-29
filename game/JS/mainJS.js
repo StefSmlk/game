@@ -237,7 +237,7 @@ function game() {
                             if (level === 1){
                                 showPics(first, 5);
                             }
-                            if (level === 2){
+                            if (level >= 2){
                                 showPics(5, 5);
                             }
                             cor = 0;
