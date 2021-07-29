@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/a5c602e2ae.js" crossorigin="anonymous"></script>
+
+    <title>Game</title>
+</head>
+<body>
+    <div class="start-game">
+        <h3>Выберите сложность игры:</h3>
+        <button id="dif1">просто</button>
+        <button id="dif2">средне</button>
+        <button id="dif3">сложно</button>
+    </div>
+
+    <div id="time">время: </div>
+    <div class="score-pos">счет:&nbsp;<span id="score"></span></div>
+
+    <div class="center">
+        <span class="left">
+            <i class="scal fas fa-4x"></i>
+        </span>
+        <span class="left">
+            <i class="scal fas fa-4x"></i>
+        </span>
+        <span class="left">
+            <i class="scal fas fa-4x"></i>
+        </span>
+        <span class="left">
+            <i class="scal fas fa-4x"></i>
+        </span>
+        <span class="left">
+            <i class="scal fas fa-4x"></i>
+        </span>
+    </div>
+
+    <div>
+        <button id="button" class="hide button">запомнил</button>
+    </div>
+
+    <div id="check" class="hide"></div>
+    <div id="cross" class="hide"></div>
+
+    <div class="under">
+        <span class="left">
+            <i class="rot fas fa-4x"></i>
+        </span>
+        <span class="left">
+            <i class="rot fas fa-4x"></i>
+        </span>
+        <span class="left">
+            <i class="rot fas fa-4x"></i>
+        </span>
+    </div>
+
+    <div class="game-over hide">
+        <h1>Игра окончена</h1>
+        <h2 id="total"></h2>
+        <h2 id="percent"></h2>
+        <span id="over"></span>
+        <button id="new-game">начать новую игру</button>
+    </div>
+
+    <div class="crosses"><span class="mistake">x</span>&nbsp;<span class="mistake">x</span>&nbsp;<span class="mistake">x</span></div>
+
+    <div id ="three" class="hide"><div class="th">3</div></div>
+    <div id ="two" class="hide"><div class="tw">2</div></div>
+    <div id ="one" class="hide"><div class="on">1</div></div>
+
+    <div class="head">Тайная комната</div>
+
+    <script src="../JS/mainJS.js" type="text/javascript"></script>
+</body>
+</html>

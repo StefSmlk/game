@@ -1,0 +1,199 @@
+body {
+    background-image: url("../media/coffee-792113_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 44%;
+}
+
+.left {
+    margin-left: 40px;
+}
+
+.scal {
+    position: relative;
+    animation: icon 3s infinite alternate;
+}
+
+@keyframes icon {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.button {
+    position: absolute;
+    top: 65%;
+    left: 59%;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    border: 2px solid rgba(76, 175, 80, 1);
+}
+
+.button:hover {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+}
+
+.under {
+    position: absolute;
+    top: 47%;
+    left: 53%;
+}
+
+#time {
+    position: absolute;
+    top: 20%;
+    left: 53%;
+}
+
+.score-pos {
+    position: absolute;
+    top: 20%;
+    left: 63%;
+}
+
+.start-game {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#dif1, #dif2, #dif3 {
+    margin-left: 30px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    border: 2px solid rgba(60, 93, 193, 1);
+}
+
+#dif1:hover, #dif2:hover, #dif3:hover {
+    background-color: rgba(60, 93, 193, 0.8);
+    color: white;
+}
+
+h3 {
+    margin-left: 80px;
+}
+
+.rot:hover {
+    transition: 1s;
+    animation: rot 2s infinite alternate backwards;
+}
+
+@keyframes rot {
+    from {
+        transform: rotate(0)
+    }
+    50% {
+        transform: rotate(-15deg)
+    }
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+#check {
+    color: green;
+}
+
+#cross {
+    color: red;
+}
+
+#check, #cross {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 46%;
+    background-color: white;
+    width: 580px;
+    height: 500px;
+    z-index: 100;
+}
+
+.game-over {
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 1200px;
+    height: 500px;
+    z-index: 101;
+    font-size: 30px;
+    color: white;
+}
+
+#over {
+    position: relative;
+    top: 50px;
+    left: 10%;
+}
+
+#new-game {
+    position: relative;
+    left: 400px;
+    top: 90px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+#new-game:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#three, #two, #one {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 46%;
+    background-color: white;
+    color: white;
+    width: 580px;
+    height: 500px;
+    z-index: 102;
+    font-size: 110px;
+}
+
+.th, .tw, .on {
+    position: absolute;
+    top: 20%;
+    left: 36%;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.crosses {
+    position: absolute;
+    top: 18%;
+    left: 73%;
+    font-size: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.head {
+    position: absolute;
+    top: 18%;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+    transform: rotate(-25deg);
+}
